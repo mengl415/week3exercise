@@ -3,6 +3,62 @@
   src: url("./assets/Necto-Mono.woff2") format("woff2");
 }
 
+@font-face {
+  font-family: "iA Writers QuattroS Regular";
+  src: url("./assets/iAWriterQuattroS-Regular.woff2") format("woff2");
+}
+
+html{
+  background-color: darkslategrey
+}
+
 h1 {
   font-family: "Necto Mono";
+}
+
+h2 {
+  font-family: "iA Writers QuattroS Regular";
+}
+
+.paragraph {
+  font-family: "iA Writers QuattroS Regular";
+  font-size: 5vw;
+  color: grey;
+  
+}
+
+.blue {
+  color: blue;
+  text-decoration: underline;
+  font-size: 100px;
+}
+
+.invisible:hover{
+  opacity: 0;
+}
+
+.invisible:active{
+  opacity: 1;
+  color: red;
+  font-size: 150px;
+}
+
+.pink{
+  color: pink;
+}
+
+.pink:hover{
+  mix-blend-mode: overlay;
+}
+
+.kerning{
+  letter-spacing: 15px;
+}
+
+.multiply{
+  mix-blend-mode: multiply;
+}
+
+.multiply:hover{
+  mix-blend-mode: normal;
 }
